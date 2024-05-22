@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+h2{
+ padding: 60px;
+}
+.dob{
+    position: relative;
+    left: -20px;
+}
+.email{
+    position: relative;
+    left: -18px;
+}
+.contact{
+    position: relative;
+    left: -65px;
+}
+#contactNo{
+    position: relative;
+    top: -19px;
+    left: 88px;
+}
+#registrationForm{
+    background-color: cadetblue;
+    padding: 77px;
+    width: 444px;
+    border-radius: 17px;
+    position: relative;
+
+}
+.submit{
+    padding: 10px;
+    background-color: aquamarine;
+    color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+
+}
+td,tr,table,tbody,th{
+    border: 2px solid black; 
+border-collapse: collapse;
+padding: 5px;
+background-color: green;
+
+}
+th{
+background-color: rgb(21, 202, 147);
+    }
+
+.button1{
+    background-color: red;
+    border-radius:5px ;
+    color:white;
+    padding: 5px;
+}
+.button2{
+    background-color: blue;
+    border-radius:5px ;
+    color:white;
+    padding: 5px;
+}
+#number{
+   
+        background-color: grey;
+        border-radius:5px ;
+        color:white;
+        padding: 5px;
+        margin: 7px;
+}
+#delete{
+    background-color: red;
+    border-radius:5px ;
+    color:white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.label{
+    color: rgb(241, 231, 231);
+    font-size: 20px;
+    margin-top: 7px;
+}
+#table{
+    max-height: 200px;
+    overflow: auto;
+}
+

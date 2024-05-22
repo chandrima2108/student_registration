@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <meta name="author" content=" Chandrima">
+    <meta name="keywords" content=" Student Registration system">
+    <meta name="description" content=" A site showcasing student registration and details">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="./images/favicon.jpg">
+</head>
+<body>
+    
+    <h2>Student Registration Form</h2>
+    <form id="registrationForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+        <label for="studentid">StudentID:</label>
+        <input type="number" id="studentid" name="studentid" required><br><br>
+        <label for="dob" class="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="email" class="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="contactNo" class="contact">Contact Number:</label><br>
+        <input type="number" id="contactNo" name="contact" required></input><br><br>
+        
+        <button class="submit" type="submit">Submit</button>
+    </form>
+    <label for="number" class = "label">Delete By Student ID</label>
+    <input type="number" name="number" id="number">
+    <button id="delete">Delete</button>
+        <div id = "table"></div>
+<script src="studentregistration.js"></script>
+
+</body>
+</html>
